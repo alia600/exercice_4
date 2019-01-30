@@ -77,15 +77,15 @@ body {
   }
 
   .sidebar{
-    background-color: yellow;
+    background-color: #FFE400;
     color: #444;
   } 
   .content{
-    background-color: lightgreen;
+    background-color: #009534;
     color:#444;
   }
   
   .sidebar2 {
-    background-color: lightskyblue;
+    background-color: #009EE0;
     color: #444;
   }
