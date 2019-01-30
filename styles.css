@@ -75,6 +75,11 @@ body {
     background-color: white;
     color: black;
   }
+
+  .content{
+    background-color: lightgreen;
+    color:#444;
+  }
   
   .sidebar2 {
     background-color: lightskyblue;
