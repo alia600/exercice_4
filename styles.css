@@ -1,5 +1,6 @@
 body {
     margin: 40px;
+    background-color: coral;
   }
   
   .sidebar {
@@ -35,7 +36,8 @@ body {
        "sidebar"
        "content"
        "sidebar2"
-       "footer"
+       "footer";
+       background-color: coral;
     }
   
       @media only screen and (min-width: 500px)  {
