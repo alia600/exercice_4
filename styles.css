@@ -76,6 +76,10 @@ body {
     color: black;
   }
 
+  .sidebar{
+    background-color: yellow;
+    color: #444;
+  } 
   .content{
     background-color: lightgreen;
     color:#444;
