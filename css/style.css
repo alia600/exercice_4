@@ -11,6 +11,11 @@
   border: solid 1px black;
 }
 
+.wrapper:hover {
+  -webkit-box-shadow: 10px 10px 5px #aaaaaa;
+          box-shadow: 10px 10px 5px #aaaaaa;
+}
+
 body {
   margin: 40px;
 }
