@@ -4,7 +4,8 @@
     "sources": [
         "../sass/style.scss",
         "../sass/element/_element.scss",
-        "../sass/layout/_layout.scss"
+        "../sass/layout/_layout.scss",
+        "../sass/menu/_menu.scss"
     ],
     "names": [],
     "file": "style.css"
