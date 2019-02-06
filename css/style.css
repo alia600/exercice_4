@@ -165,4 +165,18 @@ body {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
 }
+
+#chkBoutonBurger:checked ~ .global {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+#chkBoutonBurger:checked ~ .boutonBurger {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#chkBoutonBurger {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */

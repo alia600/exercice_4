@@ -34,3 +34,15 @@
     /*Effet de transition sur la rotation*/
     transition: transform 1s;
 }
+
+#chkBoutonBurger:checked~.global {
+    transform: translateX(0%);
+}
+
+#chkBoutonBurger:checked~.boutonBurger {
+    transform: rotate(90deg);
+}
+
+#chkBoutonBurger {
+    display: none;
+}
