@@ -8,24 +8,45 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
+    
         <input type="checkbox" id="chkBoutonBurger" />
         <label for="chkBoutonBurger" class="boutonBurger"></label>
-        
+        <div class="global">
         <nav class="menu">
             <a href="#">Ligne Verte</a>
             <a href="#">Ligne Orange</a>
             <a href="#">Ligne Bleu</a>
             <a href="#">Ligne Jaune</a>
         </nav>
+        <main class="contenu">
+            <div class="wrapper">
+                <div class="box header">Je ne suis pas un header....</div>
+                <div class="box sidebar">Je suis a droite</div>
+                <div class="box sidebar2">Hey wow!</div>
+                <div class="box content">Les gars please -_-</div>
+                <div class="box footer">Header ta blague n'est pas drôle...</div>
+            </div>
+        </main>
 
-    <div class="wrapper">
-        <div class="box header">Je ne suis pas un header....</div>
-        <div class="box sidebar">Je suis a droite</div>
-        <div class="box sidebar2">Hey wow!</div>
-        <div class="box content">
-            Les gars please -_-
-         </div>
-        <div class="box footer">Header ta blague n'est pas drôle...</div>
-      </div>
+    </div>
+    <script>
+            /*
+            Contrôler l'aspect de la case à cocher au clic sur les boutons
+            */
+            
+            (function() { //IIFE
+                var leCheckBox = document.querySelector("input");
+                var lesBoutons = document.querySelectorAll(".menu a");
+                var nbBoutons = lesBoutons.length;		
+                console.log(nbBoutons);
+                
+                for (var i = 0; i < nbBoutons; i++) {
+                    lesBoutons[i].addEventListener("click", function() {
+                        console.log(leCheckBox.checked);
+                        leCheckBox.checked = false;
+                    }, false);
+                }
+            })(); //Fin IIFE
+        </script>
 </body>
 </html>
