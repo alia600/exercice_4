@@ -54,6 +54,7 @@
     .global {
         /*Placer à sa potition d'origine*/
         transform: translateX(0%);
+        display: block;
         /*Mettre le contenu en colonne*/				
         flex-direction: column;
     }
@@ -61,10 +62,11 @@
     .menu {
         /*Propriété comme item flex - ne peut s'étirer en hauteur*/
         flex: 0 0 100%;
-        
+        min-height: 5vh;
         /*Affichage du menu en rangée*/
         flex-direction: row;
         justify-content: space-between;
+        align-content: flex-start;
     }
     .menu a {
         border: none;
